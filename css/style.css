@@ -7,7 +7,7 @@ body{
 	box-sizing: border-box;
 }
 
-header, footer, article{
+header, footer, section{
 	width: 90%;
 	height: 200px;
 	margin: 20px auto;
@@ -67,6 +67,7 @@ h4{
 	line-height: 250px;
 	background: rgba(4, 148, 215, 0.60);
 	color: rgba(255, 255, 255, 1.00);
+	height: 100%;
 }
 
 h5{
@@ -101,28 +102,7 @@ footer{
 	background-image: url(images/bg-footer.jpeg);
 	background-size: cover;
 	margin: auto;
-}
-
-p{
-	font-size: 18px;
-	font-weight: 300;
-	line-height: 1.5em;
-	padding: 120px;
-}
-
-aside{
-	font-size: 14px;
-	font-weight: 300;
-}
-
-footer{
 	clear: left;
-}
-
-section{
-	text-align: center;
-	vertical-align: center;
-	margin: auto;
 }
 
 span{
@@ -199,19 +179,26 @@ span{
 	vertical-align: center;
 }
  
- #prj001{
+#prj-001{
  	background-image: url(images/bg-project001.jpg);
  	background-size: cover;
  }
 
-#prj002{
+#prj-002{
 	background-image: url(images/bg-project002a.jpg);
 	background-size: cover;
 }
 
-#prj003{
+#prj-003{
 	background-image: url(images/bg-project003.jpg);
 	background-size: cover;
+}
+
+#tcf-summary{
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5em;
+	padding: 120px;
 }
 
 .inset{
@@ -228,7 +215,7 @@ span{
 	background: white;
 	text-align: center;
 	line-height: 100px;
-	font-family: 'Abril Fatface';
+	font-family: 'Abril Fatface', Times;
 	font-size: 18px;
 	font-weight: 400;
 	margin-top: 10px;
@@ -236,7 +223,7 @@ span{
 	margin-right: 20px;
 }
 
-.mainnav{
+.main-nav{
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -258,10 +245,15 @@ span{
 	color: rgba(255, 255, 255, 1.00);
 }
 
-.mainnav:hover{
+.main-nav:hover{
 	border: .5px solid rgba(255, 255, 255, 1.00);
 	background: rgba(0, 0, 0, 1.00);
 	color: rgba(255, 255, 255, 1.00);
+}
+
+.copyright{
+	font-size: 14px;
+	font-weight: 300;
 }
 
 .thumbnail{
@@ -283,10 +275,49 @@ span{
 }
 
 .blurb{
-	padding: 15px;
+	padding: 10px;
 	font-size: 14px;
+	font-weight: 300;
 	text-align: left;
+	line-height: 1.5em;
+	height: 100%;
 }
 
+.details{
+	width: 90.1%;
+	height: 300px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 4.6%;
+	float: left;
+}
+
+.expanded{
+	text-align: left;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.5em;
+	padding: 10px;
+}
+
+.read{
+	text-decoration: underline;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.read:hover{
+	color: rgba(4, 148, 215, 1.00);
+}
+
+.prj-sheet:visited{
+	color: rgba(255, 255, 255, 1.0);
+}
+
+.prj-sheet:hover{
+	color: rgba(0, 0, 0, 0.7);
+}
 
 
